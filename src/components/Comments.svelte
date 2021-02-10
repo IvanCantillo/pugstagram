@@ -26,9 +26,7 @@
         {/each}
         <div class="Comments-add">
             <form on:submit|preventDefault={ handelClick }>
-                <label for="Comments-label"></label>
                 <input
-                    id="Comments-label"
                     type="text"
                     class="Comments-input"
                     placeholder="Agregar comentario..."
@@ -87,8 +85,5 @@
         font-size: 12px;
         outline: none;
         cursor: pointer;
-    }
-    label {
-        display: none;
     }
 </style>
